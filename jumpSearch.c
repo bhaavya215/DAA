@@ -24,7 +24,7 @@ int jumpSearch(int a[], int size, int key) {
 }
 
 int main() {
-    int a[] = {1, 4, 6, 8, 11, 19, 21, 54, 72, 83, 99};
+    int a[] = {10, 20, 30, 40, 50, 60, 70, 80, 90, 100};
     int key;
 
     printf("Enter the element to search: ");

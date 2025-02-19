@@ -15,7 +15,7 @@ int binarySearch(int a[], int low, int high, int key) {
 }
 
 int main() {
-    int a[] = {11, 22, 33, 44, 55, 67, 89, 93, 101, 121};
+    int a[] = {10, 20, 30, 40, 50};
     int key;
 
     printf("Enter element to search: ");
