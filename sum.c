@@ -22,7 +22,7 @@ void findIndex(int a[], int n) {
 }
 
 int main() {
-    int a[] = {3, 6, 9, 12, 15, 18}; 
+    int a[] = {3, 7, 9, 11, 12, 25}; 
     int n = sizeof(a) / sizeof(a[0]);
 
     findIndex(a, n);
