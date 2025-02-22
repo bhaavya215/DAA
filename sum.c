@@ -22,9 +22,25 @@ void findIndex(int a[], int n) {
 }
 
 int main() {
-    int a[] = {3, 7, 9, 11, 12, 25}; 
-    int n = sizeof(a) / sizeof(a[0]);
+    int T;
+    printf("Enter number of test cases: ");
+    scanf("%d", &T);  // Number of test cases
 
-    findIndex(a, n);
+    while (T--) {
+        int n;
+        printf("Enter size of the array: ");
+        scanf("%d", &n);
+        
+        int a[n];
+        printf("Enter elements: \n");
+
+        for (int i = 0; i < n; i++) {
+            printf("Element %d: ",i+1);
+            scanf("%d", &a[i]);
+        }
+
+        findIndex(a, n);
+    }
+
     return 0;
 }
