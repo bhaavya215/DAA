@@ -7,7 +7,7 @@ using namespace std;
 void selectionSort(int a[], int n, int &comp, int &swap) {
     for(int i = 0; i < n - 1; i++) {
         int min = i;
-        for(int j = i +1; j < n; j++) {
+        for(int j = i + 1; j < n; j++) {
             comp++;
             if (a[min] > a[j]) {
                 min = j;
