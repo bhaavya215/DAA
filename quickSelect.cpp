@@ -2,7 +2,6 @@
 or largest element in the array. (worst case time complexity = O(n))*/
 
 #include <iostream>
-//#include <cstdlib>
 using namespace std;
 
 int partition(int a[], int left, int right) {
