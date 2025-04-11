@@ -10,3 +10,8 @@ Sorting Algorithms:
 2. Insertion Sort
 3. Merge Sort
 4. Quick Sort
+5. Counting Sort
+
+Graph Algorithms:
+1. DFS
+2. BFS
