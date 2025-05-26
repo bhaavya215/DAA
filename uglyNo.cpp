@@ -1,8 +1,9 @@
+// WEEK 14, Q1
 #include <iostream>
 #include <vector>
 using namespace std;
 
-int getNthUglyNumber(int n) {
+int getUglyNo(int n) {
     vector<int> ugly(n);
     ugly[0] = 1;
     int i2 = 0, i3 = 0, i5 = 0;
@@ -37,7 +38,7 @@ int main() {
         int n;
         cout << "Enter n: ";
         cin >> n;
-        cout << getNthUglyNumber(n) << endl;
+        cout << getUglyNo(n) << endl;
     }
     return 0;
 }
